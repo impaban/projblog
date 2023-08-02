@@ -5,6 +5,8 @@ const mongoose =require('mongoose');
 const authRoute=require('./routes/auths');
 const usersRoute=require('./routes/users');
 const postRoute=require('./routes/posts');
+const jwt = require('jsonwebtoken');
+
 
 dotenv.config();
 app.use(express.json())
